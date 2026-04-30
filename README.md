@@ -26,6 +26,7 @@ The STM32 reads the potentiometer voltage and adjusts a PWM signal sent to a mot
 - `PC7` -> Mode LED (High)
 - `PC8` -> Mode LED (Manual)
 - `PC9` -> Mode LED (Ramp)
+  
 Note: STM32 GND and motor driver GND must be connected together (common ground).
 
 ### Potentiometer
