@@ -21,17 +21,17 @@
     {
       "label": "Flash (Cube)",
       "type": "process",
-      "command": "cube",
+      "command": "C:/ST/STM32CubeCLT_1.18.0/STM32CubeProgrammer/bin/STM32_Programmer_CLI.exe",
       "args": [
-        "programmer",
         "-c",
         "port=SWD",
         "-d",
-        "${command:cmake.launchTargetPath}"
+        "${command:cmake.launchTargetPath}",
+        "-rst"
       ],
       "problemMatcher": [],
       "windows": {
-        "command": "cube"
+        "command": "C:/ST/STM32CubeCLT_1.18.0/STM32CubeProgrammer/bin/STM32_Programmer_CLI.exe"
       }
     }
   ]
