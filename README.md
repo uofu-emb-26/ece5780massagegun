@@ -54,6 +54,12 @@ Note: STM32 GND and motor driver GND must be connected together (common ground).
 5. Build and flash the STM32 firmware.
 6. Start with the potentiometer turned down, then slowly increase speed.
 
+## Enclosure
+
+<img width="600" height="458" alt="F2BFF639-5BEB-4AE8-BE30-512F5E2FA703" src="https://github.com/user-attachments/assets/e44141c0-7989-43cd-beb8-d80e303606bb" />
+<img width="600" height="509" alt="CA27CDD5-D412-4D03-A61D-AB9DE1F843BF" src="https://github.com/user-attachments/assets/0c43e34f-16ca-4d0e-b860-07df4a36974d" />
+
+
 ## Contributors
 
 - Noah Sikorski
