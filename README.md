@@ -15,7 +15,15 @@ The STM32 reads the potentiometer voltage and adjusts a PWM signal sent to a mot
 - Custom PCB for motor power and control
 - Basic protection using a fuse and capacitors
 
-  <img width="765" height="851" alt="image" src="https://github.com/user-attachments/assets/30934d5f-3813-4c16-9a0d-5f38cf6f8c94" />
+## Motor Driver / PCB Specifications
+
+- **Driver type:** Custom H-bridge motor driver PCB
+- **Motor supply voltage:** 12V DC
+- **Power input protection:** Fuse on the 12V input
+- **Voltage spike protection:** TVS diode and capacitors used to reduce motor switching spikes
+
+The PCB layout shown below contains the high-current motor driver section, power input protection, motor output connections, and STM32 control signal connections.
+  <img width="765" height="851" alt="PCB layout of STM32 massage gun motor driver" src="https://github.com/user-attachments/assets/30934d5f-3813-4c16-9a0d-5f38cf6f8c94" />
 
 
 ## STM32 Pinout
