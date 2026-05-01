@@ -88,3 +88,6 @@ We designed a 3D-printed enclosure to house the motor, battery, custom PCB, and 
 - **Rachel Bair**
 - **Dean Smith**
 - **Blandine Sitepieng**
+
+
+More resources related to this project can be found at https://drive.google.com/drive/folders/1_zR8XTAKJXsDjZLdvogMxc0XrzP-6F84?usp=sharing
