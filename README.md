@@ -15,6 +15,9 @@ The STM32 reads the potentiometer voltage and adjusts a PWM signal sent to a mot
 - Custom PCB for motor power and control
 - Basic protection using a fuse and capacitors
 
+  <img width="765" height="851" alt="image" src="https://github.com/user-attachments/assets/30934d5f-3813-4c16-9a0d-5f38cf6f8c94" />
+
+
 ## STM32 Pinout
 
 - `PA0` -> USER button input (mode select button)
