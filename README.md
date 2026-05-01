@@ -73,7 +73,8 @@ The code is heavily interrupt and DMA driven. The ADC continuously polls the pot
 3. **Power:** Connect the 12V supply to the motor driver through a fuse. *Double check polarity!*
 4. **Motor connection:** Connect the motor leads to the motor driver output screw terminals.
 5. **Flash:** Build the project in STM32CubeIDE and flash the STM32 via ST-Link.
-6. **Test:** Start with the potentiometer turned all the way down. Press the user button until you're in Manual mode (check the LED), then slowly increase the speed. 
+6. **Test:** Start with the potentiometer turned all the way down. Press the user button until you're in Manual mode (check the LED), then slowly increase the speed.
+7. **Modes:** Adjust different modes by pressing PA0 user button.
 
 ## Enclosure & Mechanicals
 
