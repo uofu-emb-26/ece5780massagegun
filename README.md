@@ -10,7 +10,8 @@ Instead of just buying an off-the-shelf controller, we designed a custom PCB and
 
 To get a high-level view of how everything connects, check out the block diagram below. It shows the power delivery (12V battery to regulators and motor), the MCU inputs (button, pot), and the outputs (LEDs, PWM to driver).
 
-<Block diagram here>
+<img width="1448" height="1280" alt="image (1)" src="https://github.com/user-attachments/assets/b75416e8-b33f-4e9c-b913-42b3c84caf8e" />
+
 
 ## Main Features & Operating Modes
 
@@ -62,8 +63,8 @@ Here is the exact pinout we used for the STM32 firmware. **note:** The STM32 gro
 
 The code is heavily interrupt and DMA driven. The ADC continuously polls the potentiometer in the background. The main loop is basically a state machine that checks the current mode, reads the button debouncer, and updates the timer's compare register (CCR) to change the duty cycle. 
 
-> **[Insert Firmware State Machine Flowchart Here]**
-> *(Placeholder for the flowchart showing the button interrupt debouncing and the transition between Manual, Low, High, and Ramp states)*
+<img width="1448" height="1280" alt="image (2)" src="https://github.com/user-attachments/assets/f751ef6b-b831-4bf0-9d2c-838810addcf7" />
+
 
 ## Setup & Getting Started
 
